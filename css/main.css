@@ -1,3 +1,111 @@
+/* changing body background color for all pages */
 body{
-    background-color: red;
+    background-color: black;
+}
+/* changing nav text white */
+.nav-link{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 40px;
+}
+/* changing h1 color */
+h1{
+    color: white;
+    font-size: 80px;
+    border: 5px solid white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1 1fr;
+    grid-template-rows: 6;
+}
+/* wrapping tittle around logo */
+.top{
+    display: flex;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+}
+/* adjusting nav placement */
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav:hover{
+    color: green;
+}
+/* adjusting image dimensions */
+#fox-yawn{
+    width: 1288px;
+    grid-column: 1 ;
+    grid-row: 1;
+}
+/* adjusting image dimensions */
+#blue-jay{
+    width: 1288px;
+    grid-column: 1;
+    grid-row: 2;
+}
+/* adjusting image dimensions */
+#pine-martin{
+    width: 1288px;
+    grid-column: 1;
+    grid-row: 3;
+}
+/* adjusting image dimensions */
+#chick{
+    width: 1288px;
+    grid-column: 1;
+    grid-row: 4;
+}
+/* adjusting image dimensions */
+#buck{
+    width: 1288px;
+    grid-column: 1;
+    grid-row: 5;
+}
+/* adjusting image dimensions */
+#fox-laying{
+    width: 1288px;
+    grid-column: 1;
+    grid-row: 6;
+}
+/* adjusting image dimensions */
+#fox{
+    width: 1288px;
+    grid-column: 1;
+    grid-row: 7; 
+}
+/* adjusting image dimensions */
+#fox-look{
+    width: 1288px;
+    grid-column: 1;
+    grid-row: 8;
+}
+/* adding hover properties to links */
+a:hover{
+    color: yellowgreen;
+}
+/* adjusting image dimensions */
+#me{
+    width: 416px;
+    padding-top: 80px;
+}
+/* changing font color */
+p{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+/* home page paragraph text */
+main div{
+    display: flex;
+    justify-content: center;
+}
+/* adjusting all image padding on gallery page */
+.img{
+    padding: 15px 0;
 }
