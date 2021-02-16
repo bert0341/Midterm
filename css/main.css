@@ -26,12 +26,12 @@ h1{
 }
 .tittle{
     display: flex;
-    justify-content: center;
 }
 /* adjusting nav placement */
 nav{
     display: flex;
     justify-content: center;
+    font-family: 'Aclonica', sans-serif;
 }
 nav:hover{
     color: green;
