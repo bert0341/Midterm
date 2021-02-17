@@ -1,86 +1,106 @@
 /* changing body background color for all pages */
 body{
     background-color: black;
+    max-width: 768px;
 }
 /* changing nav text white */
 .nav-link{
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     text-decoration: none;
-    margin: 40px;
+    margin: 20px;
+    border-bottom: 3px solid white;
 }
 /* changing h1 color */
 h1{
     color: white;
-    font-size: 80px;
-    border: 5px solid white;
+    font-size: 40px;
+    justify-content: center;
+    padding-right: 120px;
 }
+#t-div{
+    flex-grow: 1;
+}
+
 .grid{
     display: grid;
-    grid-template-columns: 1 1fr;
-    grid-template-rows: 6;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
 }
 /* wrapping tittle around logo */
 .top{
     display: flex;
 }
+/* Erik The Red text */
 .tittle{
     display: flex;
+}
+/* adjusting width and height of logo */
+.logo{
+    width: 15%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+/* main banner image */
+.slide{
+  width: 100%;  
 }
 /* adjusting nav placement */
 nav{
     display: flex;
     justify-content: center;
     font-family: 'Aclonica', sans-serif;
+    width: 100%;
 }
 nav:hover{
     color: green;
 }
 /* adjusting image dimensions */
 #fox-yawn{
-    width: 1288px;
+    width: 388px;
     grid-column: 1 ;
     grid-row: 1;
 }
 /* adjusting image dimensions */
 #blue-jay{
-    width: 1288px;
+    width: 388px;
     grid-column: 1;
     grid-row: 2;
 }
 /* adjusting image dimensions */
 #pine-martin{
-    width: 1288px;
+    width: 388px;
     grid-column: 1;
     grid-row: 3;
 }
 /* adjusting image dimensions */
 #chick{
-    width: 1288px;
+    width: 388px;
     grid-column: 1;
     grid-row: 4;
 }
 /* adjusting image dimensions */
 #buck{
-    width: 1288px;
+    width: 388px;
     grid-column: 1;
     grid-row: 5;
 }
 /* adjusting image dimensions */
 #fox-laying{
-    width: 1288px;
+    width: 388px;
     grid-column: 1;
     grid-row: 6;
 }
 /* adjusting image dimensions */
 #fox{
-    width: 1288px;
+    width: 388px;
     grid-column: 1;
     grid-row: 7; 
 }
 /* adjusting image dimensions */
 #fox-look{
-    width: 1288px;
+    width: 388px;
     grid-column: 1;
     grid-row: 8;
 }
@@ -90,13 +110,13 @@ a:hover{
 }
 /* adjusting image dimensions */
 #me{
-    width: 416px;
+    width: 216px;
     padding-top: 80px;
 }
 /* changing font color */
 p{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
 }
@@ -108,4 +128,72 @@ main div{
 /* adjusting all image padding on gallery page */
 .img{
     padding: 15px 0;
+    place-self: center;
+}
+h2{
+    color: white;
+}
+/* /////////////////////// */
+/* ////////Tablet//////// */
+/* ///////////////////// */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+.img{
+    column-gap:10px;
+    row-gap: 10px;
+}    
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}    
+    /* adjusting image dimensions */
+#fox-yawn{
+    width: 350px;
+    grid-column: 1 ;
+    grid-row: 1;
+}
+/* adjusting image dimensions */
+#blue-jay{
+    width: 350px;
+    grid-column: 2;
+    grid-row: 1;
+}
+/* adjusting image dimensions */
+#pine-martin{
+    width: 388px;
+    grid-column: 1;
+    grid-row: 2;
+}
+/* adjusting image dimensions */
+#chick{
+    width: 388px;
+    grid-column: 2;
+    grid-row: 2;
+}
+/* adjusting image dimensions */
+#buck{
+    width: 388px;
+    grid-column: 1;
+    grid-row: 3;
+}
+/* adjusting image dimensions */
+#fox-laying{
+    width: 388px;
+    grid-column: 2;
+    grid-row: 3;
+}
+/* adjusting image dimensions */
+#fox{
+    width: 388px;
+    grid-column: 1;
+    grid-row: 4; 
+}
+/* adjusting image dimensions */
+#fox-look{
+    width: 388px;
+    grid-column: 2;
+    grid-row: 4;
+}
+
 }
