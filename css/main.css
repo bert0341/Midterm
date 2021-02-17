@@ -138,10 +138,10 @@ h2{
 /* ///////////////////// */
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
-.img{
+/* .img{
     column-gap:10px;
     row-gap: 10px;
-}    
+}     */
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -196,4 +196,68 @@ h2{
     grid-row: 4;
 }
 
+}
+/* /////////////////////// */
+/* ////////Desktop//////// */
+/* ///////////////////// */
+@media screen and (min-width: 1024px) {
+
+    .slide{
+        
+    }
+
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }    
+        /* adjusting image dimensions */
+    #fox-yawn{
+        width: 488px;
+        grid-column: 1 ;
+        grid-row: 1;
+    }
+    /* adjusting image dimensions */
+    #blue-jay{
+        width: 488px;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    /* adjusting image dimensions */
+    #pine-martin{
+        width: 488px;
+        grid-column: 3;
+        grid-row: 1;
+    }
+    /* adjusting image dimensions */
+    #chick{
+        width: 488px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    /* adjusting image dimensions */
+    #buck{
+        width: 488px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+    /* adjusting image dimensions */
+    #fox-laying{
+        width: 488px;
+        grid-column: 3;
+        grid-row: 2;
+    }
+    /* adjusting image dimensions */
+    #fox{
+        width: 488px;
+        grid-column: 1;
+        grid-row: 3; 
+    }
+    /* adjusting image dimensions */
+    #fox-look{
+        width: 488px;
+        grid-column: 2;
+        grid-row: 3;
+    }
 }
