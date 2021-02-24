@@ -1,7 +1,6 @@
 /* changing body background color for all pages */
 body{
     background-color: black;
-    max-width: 768px;
 }
 /* changing nav text white */
 .nav-link{
@@ -10,6 +9,12 @@ body{
     text-decoration: none;
     margin: 20px;
     border-bottom: 3px solid white;
+}
+nav:hover{
+    color: green;
+}
+.nav-link:active{
+    font-size: 15px
 }
 /* changing h1 color */
 h1{
@@ -53,14 +58,16 @@ nav{
     font-family: 'Aclonica', sans-serif;
     width: 100%;
 }
-nav:hover{
-    color: green;
-}
 /* adjusting image dimensions */
 #fox-yawn{
     width: 388px;
     grid-column: 1 ;
     grid-row: 1;
+}
+/* adding hover, scale properties */
+#fox-yawn:hover{
+    transform: scale(2);
+    transition: 0.5s;
 }
 /* adjusting image dimensions */
 #blue-jay{
@@ -68,11 +75,21 @@ nav:hover{
     grid-column: 1;
     grid-row: 2;
 }
+/* adding hover, scale properties */
+#blue-jay:hover{
+    transform: scale(2);
+    transition: 0.5s;
+}
 /* adjusting image dimensions */
 #pine-martin{
     width: 388px;
     grid-column: 1;
     grid-row: 3;
+}
+/* adding hover, scale properties */
+#pine-martin:hover{
+    transform: scale(2);
+    transition: 0.5s;
 }
 /* adjusting image dimensions */
 #chick{
@@ -80,11 +97,21 @@ nav:hover{
     grid-column: 1;
     grid-row: 4;
 }
+/* adding hover, scale properties */
+#chick:hover{
+    transform: scale(2);
+    transition: 0.5s;
+}
 /* adjusting image dimensions */
 #buck{
     width: 388px;
     grid-column: 1;
     grid-row: 5;
+}
+/* adding hover, scale properties */
+#buck:hover{
+    transform: scale(2);
+    transition: 0.5s;
 }
 /* adjusting image dimensions */
 #fox-laying{
@@ -92,17 +119,32 @@ nav:hover{
     grid-column: 1;
     grid-row: 6;
 }
+/* adding hover, scale properties */
+#fox-laying:hover{
+    transform: scale(2);
+    transition: 0.5s;
+}
 /* adjusting image dimensions */
 #fox{
     width: 388px;
     grid-column: 1;
     grid-row: 7; 
 }
+/* adding hover, scale properties */
+#fox:hover{
+    transform: scale(2);
+    transition: 0.5s;
+}
 /* adjusting image dimensions */
 #fox-look{
     width: 388px;
     grid-column: 1;
     grid-row: 8;
+}
+/* adding hover, scale properties */
+#fox-look:hover{
+    transform: scale(2);
+    transition: 0.5s;
 }
 /* adding hover properties to links */
 a:hover{
