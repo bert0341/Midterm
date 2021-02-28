@@ -26,6 +26,12 @@ h1{
 #t-div{
     flex-grow: 1;
 }
+/* changing font color to contact form */
+.chosen{
+ color: white;
+ border: solid 5px white;
+ margin-top: 15px;;
+}
 
 .grid{
     display: grid;
