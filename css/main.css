@@ -8,6 +8,21 @@
     }
   }
 
+  /* .logo {
+    position: absolute;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: s;
+  }
+  @keyframes run {
+    from {
+      left: 20%;
+    }
+    to {
+        right: 40%;
+    }
+  } */
+
 .nav-link:hover{
         animation-duration: 0.8s;  
         animation-name: color-change;
