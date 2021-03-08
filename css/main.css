@@ -7,8 +7,8 @@
       color: yellow;
     }
   }
-
-  /* .logo {
+/* 
+  .logo {
     position: absolute;
     animation: linear infinite;
     animation-name: run;
@@ -46,14 +46,14 @@ body{
     font-size: 15px
 }
 
-/* changing heading color */
+/* changing heading color
 .top{
     background-color: grey;
 }
-/* changing footer color */
+changing footer color
 footer{
     background-color: grey;
-}
+} */
 /* changing h1 color */
 h1{
     color: white;
@@ -227,6 +227,15 @@ h2{
 #map{
     width:100%;
     height: 350px;
+}
+/* adding padding to home page text and alignment */
+.pad{
+    padding: 0px 90px;
+    text-align: center;
+}
+/* adjusting footer sizing */
+footer, h2{
+    padding: 8px;
 }
 /* /////////////////////// */
 /* ////////Tablet//////// */

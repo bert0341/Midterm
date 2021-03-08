@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- links -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,9 @@
 </head>
     <body>
         <section>
+            <!-- adding a class so it is easily accessible -->
             <div class="top">
-                
+                <!-- adding logo -->
                 <img src="images/Erik-the-Red-BLACK-2.png" alt="erik-the-red-logo" class="logo">  
                 
                 <div id="t-div">
@@ -23,49 +25,55 @@
 
                 </div>
             </div>
-                <img src="images/Erik Fishing Landscape.jpg" alt="me-fishing"class="slide">
+            <!-- adding banner image -->
+                <img src="images/Erik_Fishing_Landscape.jpg" alt="me-fishing" class="slide">
             </section>
-            
+            <!-- navigation -->
             <nav>
                 <a href="index.html" class="nav-link"> Home</a>
                 <a href="contact.html" class="nav-link"> Contact</a>
                 <a href="gallery.html" class="nav-link"> Gallery</a>
             </nav>
-        
+            <!-- adding a class so it is easily accessible -->
+            <!-- main tag goes around map and form so I can use display flex -->
             <main class="con">
                 <div class="form">
-
+                    <!-- form -->
                     <section class="chosen">
                         <h3>Contact to learn more</h3>
                         <form action="thanks.html" method="post">
                             <div>
-                                <label for="fullanme">Your Name</label>
-                                <input type="text" name="fullanme" id="fullname"
+                                <label for="fullname">Your Name</label>
+                                <input type="text" name="fullanme" 
                                 id="fullname" class="message">
                             </div>
                             <div>
                                 <label for="youremail">Your Email</label>
-                                <input type="email" name="youremail" id="youremail"required
-                                id="youremail" class="message">
+                                <input type="email" name="youremail" id="youremail" required
+                                class="message">
                             </div>
                             <div>
                                 <label for="message">Your Message</label>
                                 <input type= "text" name="yourmessage"
-                                id="yourmessage" class="message">
+                                 class="message">
                                 
                             </div>
                             <!-- adding a submit button -->
                             <button type="submit">Send</button>
-                        </section>
+                        </form>
+                    </section>
                 </div>
+                <!-- adding google maps -->
                 <div class="damn"> 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179593.16776735926!2d-79.41729599839366!3d45.3055319125396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d2a722da13ab7e9%3A0x8bf6ace2df93b679!2sHuntsville%2C%20ON!5e0!3m2!1sen!2sca!4v1614544634148!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" id="map"></iframe>    
                 </div>
             </main>
     </body>
         <footer>
+            <!-- copyright line -->
             <h2>
-            &#169;Copyright 
+                &#169;Copyright 
             </h2>
         </footer>
+        
 </html>
