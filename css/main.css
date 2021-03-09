@@ -72,7 +72,7 @@ h1{
 .chosen{
  color: white;
  border: solid 5px white;
- margin-top: 15px;;
+ /* margin-top: 15px; */
 }
 /* setting a grid for the gallery page */
 .grid{
@@ -232,6 +232,7 @@ main h2{
     margin-left: 15px;
     padding: 5px;
     border-radius: 15px;
+    display: flex;
 }
 #map{
     width:100%;
@@ -252,6 +253,9 @@ footer h2{
 #button {
     margin-bottom: 15px;
     margin-left: 10px;
+  }
+  .home-img{
+      border: 2px solid tomato;
   }
 /* /////////////////////// */
 /* ////////Tablet//////// */
@@ -293,7 +297,9 @@ footer h2{
 }
 /* setting form width */
 .form{
-    width: 50%;
+    margin-right: 50px;
+    padding-left: 20px;
+    width: 30%;
 }
 .damn{
     width: 50%;
@@ -364,6 +370,7 @@ footer h2{
 p{
     font-size: 25px;
 }
+/* changing h2 font sizes */
 h2{
     font-size: 25px;
 }
@@ -409,10 +416,6 @@ h2{
     .con{
         display:flex;
     }
-    /* setting form width */
-    .form{
-        width: 50%;
-    }
     /* setting full width of parent */
     #map{
     width:100%;
@@ -428,7 +431,9 @@ h2{
 }
 /* setting form width */
 .form{
-    width: 50%;
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .damn{
     width: 50%;
