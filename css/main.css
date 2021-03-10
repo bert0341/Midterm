@@ -19,12 +19,24 @@
             left: 20%;
         }
     }
+    /* /////////// */
+  @keyframes run-full {
+    0% {
+          left: 0%;
+      }
+      50% {
+          left: 100%;
+      }
+      100% {
+          left: 10%;
+      }
+  }
      /* logo animation adjustments */
     .logo {
       position: absolute;
       animation: linear infinite;
-      animation-name: run;
-      animation-duration: 9s;
+      animation-name: run-full;
+      animation-duration: 15s;
     }
 
 .nav-link:hover{
@@ -50,29 +62,17 @@ body{
     font-size: 15px
 }
 
-/* changing heading color
-.top{
-    background-color: grey;
-}
-changing footer color
-footer{
-    background-color: grey;
-} */
-/* changing h1 color */
-h1{
-    color: white;
-    font-size: 40px;
-    justify-content: center;
-    padding-right: 120px;
 }
 #t-div{
     flex-grow: 1;
 }
 /* changing font color to contact form */
 .chosen{
- color: white;
- border: solid 5px white;
- /* margin-top: 15px; */
+    color: white;
+    border: solid 5px white;
+    height:100%;
+    box-sizing: border-box;
+    /* margin-top: 15px; */
 }
 /* setting a grid for the gallery page */
 .grid{
@@ -99,7 +99,7 @@ h1{
 }
 /* main banner image */
 .slide{
-  width: 100%;  
+    width: 100%;  
 }
 /* adjusting nav placement */
 nav{
@@ -254,49 +254,58 @@ footer h2{
 #button {
     margin-bottom: 15px;
     margin-left: 10px;
-  }
-  .home-img{
-      border: 2px solid tomato;
-  }
-  h2{
-      color: tomato;
-  }
-  #icon{
-      color: white;
-  }
+}
+.home-img{
+    border: 2px solid tomato;
+}
+h2{
+    color: tomato;
+}
+#icon{
+    color:tomato;
+}
 /* /////////////////////// */
 /* ////////Tablet//////// */
 /* ///////////////////// */
 @media screen and (min-width: 768px) and (max-width: 1024px){
-
-/* .img{
-    column-gap:10px;
-    row-gap: 10px;
-}     */
-/* header animation */
-@keyframes run {
-    0% {
-          left: 40%;
-      }
-      50% {
-          left: 60%;
-      }
-      100% {
-          left: 40%;
-      }
-  }
- /* logo animation adjustments */
-  .logo {
-    position: absolute;
-    animation: linear infinite;
-    animation-name: run;
-    animation-duration: 5s;
-  }
+    
+    /* .img{
+        column-gap:10px;
+        row-gap: 10px;
+    }     */
+    /* header animation */
+    @keyframes run {
+        0% {
+            left: 40%;
+        }
+        50% {
+            left: 60%;
+        }
+        100% {
+            left: 40%;
+        }
+    }
+    /* changing h1 attributes */
+    h1{
+        color: white;
+        font-size: 60px;
+        justify-content: center;
+        padding-right: 120px;
+    }
+    /* logo animation adjustments */
+    .logo {
+        position: absolute;
+        animation: linear infinite;
+        animation-name: run;
+        animation-duration: 5s;
+    }
 
 /*  make tittle show */
 .tittle{
-    display: block;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
 }
 /* parent element around form aand map */
 .con{
@@ -317,8 +326,10 @@ footer h2{
 }
 /* re-adjusting logo positioning */
 .logo{
-    position:relative;
+    position: obsolute;
     left:0%;
+    width:180px;
+    height: 180px;
 }
 
 .grid{
@@ -381,6 +392,9 @@ p{
 h2{
     font-size: 25px;
 }
+#t-div{
+    height: 180px;
+}
 
 }
 /* /////////////////////// */
@@ -413,11 +427,15 @@ h2{
     animation-name: run;
     animation-duration: 5s;
   }
-
+  #t-div{
+    height: 280px;
+}
         /*  make tittle show */
     .tittle{
-        display: block;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size:
     }
     /* parent element around form aand map */
     .con{
@@ -429,8 +447,10 @@ h2{
     }
     /* re-adjusting logo positioning */
     .logo{
-        position:relative;
+        position:absolute;
         left:0%;
+        width: 280px;
+        height:280px;
     }
     /* parent element around form aand map */
 .con{
@@ -444,6 +464,13 @@ h2{
 }
 .damn{
     width: 50%;
+}
+/* changing h1 attributes */
+h1{
+    color: white;
+    font-size: 70px;
+    justify-content: center;
+    padding-right: 120px;
 }
 
     .grid{
