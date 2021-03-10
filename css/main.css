@@ -88,6 +88,7 @@ h1{
 .tittle{
     display: flex;
     display: none;
+    color: tomato;
 }
 /* adjusting width and height of logo */
 .logo{
@@ -256,6 +257,12 @@ footer h2{
   }
   .home-img{
       border: 2px solid tomato;
+  }
+  h2{
+      color: tomato;
+  }
+  #icon{
+      color: white;
   }
 /* /////////////////////// */
 /* ////////Tablet//////// */
