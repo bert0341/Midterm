@@ -62,6 +62,9 @@ body{
     font-size: 15px
 }
 
+/* adjusting footer orientation */
+footer{
+    display: flex;
 }
 #t-div{
     flex-grow: 1;
@@ -246,7 +249,7 @@ main h2{
 }
 /* adjusting footer sizing */
 footer h2{
-    padding: 20px;
+    padding-left: 20px;
 }
 #message{
     margin-bottom: 20px;
@@ -263,6 +266,11 @@ h2{
 }
 #icon{
     color:tomato;
+    display: flex;
+    align-content: flex-end;
+}
+p i{
+    padding-left: 20px;
 }
 /* /////////////////////// */
 /* ////////Tablet//////// */
@@ -299,6 +307,11 @@ h2{
         animation-name: run;
         animation-duration: 5s;
     }
+    /* adding nav spacing between elements */
+    nav a{
+        padding-left: 5px;
+        padding-right:5px;
+    }
 
 /*  make tittle show */
 .tittle{
@@ -306,6 +319,10 @@ h2{
     flex-direction: column;
     justify-content: flex-start;
     
+}
+/* adjusting nav text sizing */
+.nav-link{
+    font-size: 20px;
 }
 /* parent element around form aand map */
 .con{
@@ -435,7 +452,7 @@ h2{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        font-size:
+        font-size: 80px;
     }
     /* parent element around form aand map */
     .con{
@@ -464,6 +481,15 @@ h2{
 }
 .damn{
     width: 50%;
+}
+/* adjusting nav text sizing */
+.nav-link{
+    font-size: 25px;
+}
+  /* adding nav spacing between elements */
+  nav a{
+    padding-right: 10px;
+    padding-left:10px;
 }
 /* changing h1 attributes */
 h1{
