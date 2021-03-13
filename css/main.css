@@ -92,6 +92,7 @@ footer{
     display: flex;
     display: none;
     color: tomato;
+    border-bottom: 2px solid tomato;
 }
 /* adjusting width and height of logo */
 .logo{
@@ -246,6 +247,10 @@ main h2{
 .pad{
     padding: 0px 90px;
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    box-shadow: 5px 5px 10px 10px tomato;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 /* adjusting footer sizing */
 footer h2{
@@ -318,6 +323,7 @@ p i{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    border-bottom: 4px solid tomato;
     
 }
 /* adjusting nav text sizing */
@@ -443,6 +449,7 @@ h2{
     animation: linear infinite;
     animation-name: run;
     animation-duration: 5s;
+    
   }
   #t-div{
     height: 280px;
@@ -453,6 +460,7 @@ h2{
         flex-direction: column;
         justify-content: flex-start;
         font-size: 80px;
+        border-bottom: 6px solid tomato;
     }
     /* parent element around form aand map */
     .con{
