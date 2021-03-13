@@ -94,6 +94,7 @@ footer{
     display: none;
     color: tomato;
     border-bottom: 2px solid tomato;
+    margin-right: 5%;
 }
 /* adjusting width and height of logo */
 .logo{
@@ -213,6 +214,7 @@ p{
     font-size: 20px;
     display: flex;
     justify-content: center;
+    line-height: 40px;
 }
 /* home page paragraph text */
 .home-cont{
