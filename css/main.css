@@ -65,6 +65,7 @@ body{
 /* adjusting footer orientation */
 footer{
     display: flex;
+    margin-top: 6%;
 }
 #t-div{
     flex-grow: 1;
@@ -251,6 +252,10 @@ main h2{
     box-shadow: 5px 5px 10px 10px tomato;
     padding-bottom: 20px;
     padding-top: 20px;
+    margin: 0% 5%;
+}
+#my-logo{
+    margin-top: 5%;
 }
 /* adjusting footer sizing */
 footer h2{
@@ -325,6 +330,10 @@ p i{
     justify-content: flex-start;
     border-bottom: 4px solid tomato;
     
+}
+/* adjusting label text size */
+label{
+    font-size: 18px;
 }
 /* adjusting nav text sizing */
 .nav-link{
@@ -443,6 +452,10 @@ h2{
           left: 40%;
       }
   }
+  /* adjusting label text size */
+label{
+    font-size: 20px;
+}
   /* logo animation adjustments */
   .logo {
     position: absolute;
