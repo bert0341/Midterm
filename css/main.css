@@ -360,7 +360,7 @@ label{
 }
 /* re-adjusting logo positioning */
 .logo{
-    position: obsolute;
+    position: absolute;
     left:0%;
     width:180px;
     height: 180px;
