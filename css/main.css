@@ -25,10 +25,10 @@
           left: 0%;
       }
       50% {
-          left: 100%;
+          left: 85%;
       }
       100% {
-          left: 10%;
+          left: 0%;
       }
   }
      /* logo animation adjustments */
@@ -61,7 +61,21 @@ body{
 .nav-link:active{
     font-size: 15px
 }
-
+/* aligning inside form content */
+.align{
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}
+/* aligning j3 content inside of form */
+h3{
+    text-align: center;
+}
+/* centering the whole form */
+.form{
+    max-width: 350px;
+    margin: 0 auto;
+}
 /* adjusting footer orientation */
 footer{
     display: flex;
@@ -211,7 +225,7 @@ nav{
 /* changing font color */
 p{
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     line-height: 40px;
@@ -349,7 +363,7 @@ label{
 .form{
     margin-right: 50px;
     padding-left: 20px;
-    width: 30%;
+    width: 35%;
 }
 .damn{
     width: 50%;
@@ -365,7 +379,7 @@ label{
     width:180px;
     height: 180px;
 }
-
+  /* adjusting image dimensions */
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -420,7 +434,7 @@ label{
     grid-row: 4;
 }
 p{
-    font-size: 25px;
+    font-size: 21px;
 }
 /* changing h2 font sizes */
 h2{
@@ -504,6 +518,10 @@ label{
 }
 .damn{
     width: 50%;
+}
+/* adjusting paragraph text size */
+p{
+    font-size: 25px;
 }
 /* adjusting nav text sizing */
 .nav-link{
